@@ -56,5 +56,5 @@ data class GenerationOptions(
  */
 class LlmProviderException(
     message: String,
-    val cause: Throwable? = null
+    override val cause: Throwable? = null
 ) : Exception(message, cause)

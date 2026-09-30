@@ -1,0 +1,87 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Files for the ART/Dalvik VM
+*.odex
+*.oat
+*.art
+
+# Generated files (D8/ R8 /dexer)
+*.log
+*.dump
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Gradle build cache (Multi-Project Builds)
+**/build/
+**/generated/
+
+# Kotlin generated files
+*.kotlin_module
+
+# Android Studio
+captains-log.xml
+.navigation/
+output-metadata.json
+
+# IntelliJ
+*.iml
+*.iws
+*.ipr
+.idea/
+*.classpath
+*.project
+.classpath
+.project
+.settings/
+
+# Keystore files
+# Deliberately have a blank section because Gradle adds .jks and .keystore at the root
+# Removing the section removes that blank section
+*.jks
+*.keystore
+
+# Signing configurations
+.signing/
+
+# External native build folder generated in Android Studio
+.externalNativeBuild
+.cxx/
+
+# Google Services (e.g. Firebase)
+google-services.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Mixpanel
+mixpanel.properties
+
+# cmake
+cmake/
+buildType/
+
+# Android Profiling
+*.hprof
+*/obj/
+*/obj/local/
+*.bin
+
+# Misc
+*.log
+
+# Debug
+adb.log
